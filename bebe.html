@@ -8,6 +8,29 @@
     img {
         width: 300px;
     }
+.block {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    animation: dude 4s infinite;
+}
+@keyframes dude {
+0% {
+    width: 200px;
+    background-color: brown;
+}
+50% {
+width: 400px;
+
+background-color: aqua;
+}
+100% {
+width: 200px;
+background-color: brown;
+}
+
+}
+
 </style>
 </head>
 <body>
@@ -35,6 +58,7 @@ Ceļojums uz Norvegijas
         </td>
         <td>
             Cena
+            <div class="block"></div>
         </td>
     </tr>
     <tr>
